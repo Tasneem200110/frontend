@@ -1,0 +1,37 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-radius: 0px;
+    border: none;
+    outline: none;
+}
+:root{
+    --primary-color: #C2EFD4;
+    --active-color: #224F34;
+}
+
+.bg-primary-color{background-color: var(--primary-color) !important;}
+.bg-active{background-color: var(--active-color) !important;}
+.outline-mint{border: var(--primary-color) 2px;}
+.font-color{color: var(--active-color);}
+.w-40{width: 40%;}
+.table-br-l{border-left: solid 1px ;}
+
+.custom-input::placeholder{
+    color: white;
+}
+h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.hero-image{
+    border-radius: 141px 45px 150px 82px;
+    background-color: #6BC785;
+
+
+}
+.best1{
+    background-color: #93B9A2;
+}

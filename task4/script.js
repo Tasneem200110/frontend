@@ -6,7 +6,7 @@ function DivisableBy10(number){
     return false;
 }
 
-console.log(`Is number divisable? ${DivisableBy10(20)}`)
+console.log(`Is number divisable? ${DivisableBy10(2)}`)
 
 //Func 2
 
@@ -43,4 +43,5 @@ function reverseArray(numbers){
 }
 let ArraytoReverse = [10,20,30,40, 50];
 let reversed= reverseArray(ArraytoReverse);
+console.log(...reversed);
 console.log(`reverse Array: ${reversed}`);
