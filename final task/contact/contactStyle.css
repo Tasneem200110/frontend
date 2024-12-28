@@ -1,0 +1,148 @@
+.contact-header {
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.contact-header .header-overlay {
+    text-align: center;
+    padding: 20px;
+    z-index: 10;
+    width: 100%;
+}
+
+.contact-header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+
+.home-contact{
+    padding: 20px 10px;
+    opacity: 0.9;
+    background-color: rgba(34, 34, 34, 0.582); 
+    bottom: 0;
+    z-index: 10;
+    width: 100%; 
+    text-align: center;
+}
+.home-contact p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    opacity: 1;
+}
+
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.contact-item {
+    display: block;
+    max-width: 300px;
+    text-align: center;
+    color: #666;
+    margin: 40px;
+}
+
+.contact-item .icon {
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.contact-item h3 {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.contact-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.talks{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.talk-us{
+    position: relative;
+
+}
+.talks button{
+    padding: 10px 25px;
+    background-color: white;
+    color: var(--primary-color);
+    border: none;
+    border-radius:25px ;
+}
+.talk-us::after {
+    position: absolute;
+    content: "\f105";
+    left: 12%;
+    font-size: 100px;
+    font-family: Flaticon;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-45%);
+    opacity: 0.6;
+}
+
+
+#contactForm button{
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 25px;
+    margin: 5px 10px;
+}
+
+/* Make the input fields in the same line */
+.form-row {
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black; /* Border at the bottom of inputs */
+    padding: 10px;
+    margin-top: 5px;
+
+}
+.form-input:hover, .form-textarea:hover
+{
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.form-textarea {
+    height: 150px; /* Adjust the height of the textarea as needed */
+    resize: vertical;
+}
+.error {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+input:invalid, textarea:invalid {
+    border-color: red;
+}
